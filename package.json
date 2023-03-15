@@ -1,0 +1,20 @@
+{
+  "name": "pages-update",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": ["dist", "LICENSE", "README.md", "package.json"],
+  "devDependencies": {
+    "puppeteer": "^19.7.5",
+    "typescript": "^4.9.5"
+  }
+}
